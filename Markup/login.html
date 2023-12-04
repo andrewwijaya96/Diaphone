@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Diaphone</title>
+        <link rel="icon" href="../Pictures/Diaphone-Logo-Transparent.png">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo">
+
+        <link rel="stylesheet" href="../Style/navbar.css">
+        <link rel="stylesheet" href="../Style/loginRegister.css">
+    </head>
+    <body>
+        <nav>
+            <a class="home" href="index.html"><img src="../Pictures/Diaphone-Logo-Transparent.png" class="logo"></a>
+            <a href="catalog.html">CATALOG</a>
+            <a class="active" href="login.html">ACCOUNT</a>
+        </nav>
+
+        <div class="login">
+            <img src="../Pictures/Diaphone-Logo-Transparent.png" class="login-logo">
+            <h1>LOGIN</h1>
+                <form>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required class="text-form">
+
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" required minlength="6" class="text-form">
+
+                    <div class="remember-password">
+                        <input type="checkbox" name="remember" class="checkbox">
+                        <label for="remember">Remember Login</label>
+                    </div>
+
+                    <input type="submit" class="submit-but" value="Login" onclick="goToCatalog()">
+
+                    <a href="register.html">Join Us</a>
+                </form>
+                
+            </div>
+        </div>
+
+        <footer>
+            <div class="bot-nav">
+                <a href="index.html">HOME</a>
+                <a href="catalog.html">CATALOG</a>
+                <a class="active" href="login.html">ACCOUNT</a>
+            </div>
+            <div class="sos">
+                <img src="../Pictures/insta-logo.png" class="sos-logo" onclick="goToInsta()">
+                <img src="../Pictures/youtube-logo.png" class="sos-logo" onclick="goToYt()">
+            </div>
+            <div class="copyright">&copy;Yohanes Andrew Wijaya - 2540126033</div>
+            
+        </footer>
+
+        <script src="../Script/navJS.js"></script>
+    </body>
+</html>

@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login-logo{
+    margin: 4vh 0 2vh;
+    width: 12vw;
+    transition-duration: 0.3s;
+    align-self: center; 
+}
+
+.login-logo:hover{
+    width: 18vw;
+}
+
+.login{
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: white;
+    margin-bottom: 4px;
+    font-size: 21px;
+}
+
+h1{
+    font-size: 63px;
+    align-self: center;
+    letter-spacing: 2px;
+    font-family: Impact;
+}
+
+
+.text-form{
+    border-bottom: 2px solid #0D7377;
+    border-top: 0 solid #131c33;
+    border-left: 0 solid #131c33;
+    border-right: 0 solid #131c33;
+    transition-duration: 0.2s;
+    
+    background-color: #131c33;
+    color: white;
+    font-size: 21px;
+    margin-bottom: 4vh;
+}
+
+.text-form:hover{
+    border-bottom: 4px solid #0D7377;
+}
+
+.checkbox{
+    margin: 2px 4px 0 0;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.remember-password{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    
+    margin-bottom: 21px;
+}
+
+.submit-but{
+    border: 2px solid #0D7377;
+    border-radius: 10px;
+    height: 45px;
+    width: 5vw;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-self: center;
+    
+    background-color: #131c33;
+    color: white;
+    font-size: 21px;
+    margin-bottom: 21px;
+}
+
+.submit-but:hover{
+    width: 8vw;
+}
+
+a{
+    font-size: larger;
+    align-self: center;
+    color: lightgray;
+}
+
+a:hover{
+    color: white;
+}

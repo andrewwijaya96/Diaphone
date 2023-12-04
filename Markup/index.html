@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Diaphone</title>
+        <link rel="icon" href="../Pictures/Diaphone-Logo-Transparent.png">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo">
+
+        <link rel="stylesheet" href="../Style/navbar.css">
+        <link rel="stylesheet" href="../Style/index.css">
+    </head>
+    <body>
+        <nav>
+            <a class="active home"><img src="../Pictures/Diaphone-Logo-Transparent.png" class="logo"></a>
+            <a href="catalog.html">CATALOG</a>
+            <a href="login.html">ACCOUNT</a>
+        </nav>
+
+        <div class="land">
+            <div class="land-left">
+                <h1>WELCOME TO <br>DIAPHONE</h1>
+                <h2>Your one-stop solution for your mobile needs</h2>
+            </div>
+
+            <div class="land-right">
+                <form>
+                    <img src="../Pictures/Diaphone-Logo-Transparent.png" class="login-logo">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required class="text-form">
+
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" required minlength="6" class="text-form">
+
+                    <div class="remember-password">
+                        <input type="checkbox" name="remember" class="checkbox">
+                        <label for="remember">Remember Login</label>
+                    </div>
+
+                    <input type="submit" class="submit-but" value="Login" onclick="goToCatalog()">
+                </form>
+                <a href="register.html">Join Us</a>
+            </div>
+        </div>
+
+        <div class="promotion">
+            <div class="buffer-left"></div>
+            <div class="promotion-left">
+                <br><br><br>
+                <h1>IN NEED OF A PHONE? <br>WE GOT YOU!</h1>
+                <h2>Click Below to browse for phones</h2>
+                <button class="browse" onclick="goToCatalog()">Browse</button>
+            </div>
+            <div class="promotion-right"></div>
+        </div>
+
+        <footer>
+            <div class="bot-nav">
+                <a class="active" href="index.html">HOME</a>
+                <a href="catalog.html">CATALOG</a>
+                <a href="login.html">ACCOUNT</a>
+            </div>
+            <div class="sos">
+                <img src="../Pictures/insta-logo.png" class="sos-logo" onclick="goToInsta()">
+                <img src="../Pictures/youtube-logo.png" class="sos-logo" onclick="goToYt()">
+            </div><br>
+            <span class="copyright">&copy;Yohanes Andrew Wijaya - 2540126033</span>
+            
+        </footer>
+
+        <script src="../Script/navJS.js"></script>
+    </body>
+</html>

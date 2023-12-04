@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    font-size: 108px;
+    letter-spacing: 2px;
+    font-family: Impact;
+}
+
+.catalog{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-card{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20vw;
+    height: 560px;
+    background-color: #3A506B;
+    margin: 40px 0;
+    transition-duration: 0.3s;
+    border-bottom: 8px solid transparent;
+}
+
+.item-card:hover{
+    border-bottom: 8px solid white;
+    cursor: pointer;
+}
+
+.product-price{
+    font-size: 0;
+    transition-duration: 0.3s;
+}
+
+.item-card:hover .product-price{
+    font-size: medium;
+    display: block;
+}
+
+
+.product-img{
+    margin-top: 2vh;
+    height: 32vh;
+}
+
+.product-name{
+    margin-top: 15%;
+    width: 90%;
+    font-size: 27px;
+}
+
+.company-name{
+    margin: 0;
+    height: 4vh;
+}
